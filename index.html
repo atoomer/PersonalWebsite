@@ -2,23 +2,51 @@
 <html>
     <head>
         <Title>Home</Title>
+
+        <style type=text/css>
+        body{  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: sans-serif;  
+        }  
+        header{  
+            background-color: orange;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+            display: inline;  
+        }  
+        header li {  
+            margin: 20px;  
+        }  
+        header li a {  
+            color: blue;  
+            text-decoration: none;  
+        }  
+        
+        </style>
     </head>
     <body>
         <h1>Home</h1>
-        <a href="https://atoomer.github.io/PersonalWebsite/about">About</a>
-        <a href="https://atoomer.github.io/PersonalWebsite/projects">Projects</a>
-        <header class="GGG">
-            <nav class="IAYE" aria-label="header.primary.navigation">
-                <div class="navigation">
-                    <li class="">
-                        <a class="about" href="https://atoomer.github.io/PersonalWebsite/about"></a>
-                    </li>
-                    <li class ="">
-                        <a class ="projects" href="https://atoomer.github.io/PersonalWebsite/projects"></a>
-                    </li>
-                </div>
-            </nav>
-        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://atoomer.github.io/PersonalWebsite/about">About</a>
+                </li>
+                <li>
+                    <a href="https://atoomer.github.io/PersonalWebsite/projects">Projects</a>
+                </li>
+            </ul>
+        </nav>
     </body>
     
 </html>
