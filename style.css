@@ -39,9 +39,15 @@ ul.content {
 
 
 .row:after {
-    /*content: “”;*/
     display: table;
     clear: both;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 li {
@@ -107,7 +113,8 @@ h3.content {
     color: #38444d;
     font-size: 20px;
 }
-h3.contentColumn{
+
+h3.contentColumn {
     display: block;
     font-family: "Gill sans", sans-serif;
     margin: 0px;
