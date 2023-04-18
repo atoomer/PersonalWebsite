@@ -43,6 +43,22 @@ ul.content {
     clear: both;
 }
 
+.pairHollow  {
+    border: 3px #38444d solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    display: block;        
+}   
+
+.pairFilled  {
+    border: 3px #38444d solid;
+    background-color:rgb(118, 118, 170);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    display: block;        
+}   
 .center {
     display: block;
     margin-left: auto;
@@ -65,7 +81,7 @@ h1.home {
     padding: 60px;
     padding-bottom: 0px;
     margin: 0px;
-    color: #38444d;
+    color: #ffffff;
     font-size: 64px;
 }
 
@@ -75,8 +91,9 @@ h2.home {
     font-family: "Gill sans", sans-serif;
 
     padding-left: 100px;
+    padding-bottom: 60px;
     margin: 0px;
-    color: #38444d;
+    color: #ffffff;
     font-size: 32px;
 }
 
@@ -87,7 +104,7 @@ h1.content {
     padding: 60px;
     padding-bottom: 5px;
     margin: 0px;
-    color: #38444d;
+    color: #ffffff;
     font-size: 64px;
 
 }
@@ -97,8 +114,9 @@ h2.content {
     text-align: center;
     font-family: "Gill sans", sans-serif;
     padding: 5px;
+    padding-bottom: 60px;
     margin: 0px;
-    color: #38444d;
+    color: #ffffff;
     font-size: 32px;
 }
 
@@ -167,8 +185,11 @@ a:hover.body {
 }
 
 p.body {
+    color: #38444d;
     margin: 0px;
     padding: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
