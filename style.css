@@ -18,7 +18,37 @@ ul {
 
 }
 
+ul.content {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #38444d;
+    font-family: "Gill sans", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+
+.row:after {
+    /*content: “”;*/
+    display: table;
+    clear: both;
+}
+
 li {
+    display: inline-block;
+}
+
+li.content {
     display: inline-block;
 }
 
@@ -37,7 +67,7 @@ h2.home {
     display: block;
     text-align: left;
     font-family: "Gill sans", sans-serif;
-    
+
     padding-left: 100px;
     margin: 0px;
     color: #38444d;
@@ -65,7 +95,8 @@ h2.content {
     color: #38444d;
     font-size: 32px;
 }
-h3.content{
+
+h3.content {
     display: block;
     text-align: left;
     font-family: "Gill sans", sans-serif;
@@ -76,6 +107,17 @@ h3.content{
     color: #38444d;
     font-size: 20px;
 }
+h3.contentColumn{
+    display: block;
+    font-family: "Gill sans", sans-serif;
+    margin: 0px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #38444d;
+    font-size: 20px;
+}
+
 a.nav,
 a:link.nav,
 a:visited.nav {
@@ -84,7 +126,7 @@ a:visited.nav {
     padding: 20px;
 }
 
-a:hover {
+a:hover.nav {
     color: white;
     text-decoration: underline;
     padding: 20px;
@@ -97,17 +139,27 @@ a.currentPage {
     padding: 20px;
     margin: 0px;
 }
-a.body,
-a:link.body,
-a:hover.body
-{
+
+a.body {
+    color: #38444d;
     margin: 0px;
     padding: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-p.body 
-{
+
+a:link.body,
+a:visited.body,
+a:hover.body {
+    color: #38444d;
+    margin: 0px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+p.body {
     margin: 0px;
     padding: 60px;
     padding-top: 20px;
